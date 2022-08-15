@@ -16,6 +16,23 @@ document.getElementById("home-email").href = "mailto:" + link;
 document.getElementById("privacy-email").textContent = link;
 document.getElementById("impressum-email").textContent = link;
 
+$("#my-btn-darkmode").click(function () {
+  $("body").toggleClass("bg-dark text-light");
+  $("#my-header").toggleClass("bg-secondary bg-light");
+  $("#my-header button").toggleClass("text-dark text-light");
+  $("#my-content-team .card").toggleClass("border-secondary");
+  $("#my-content-team .card-body").toggleClass("bg-secondary");
+  $("#my-btn-darkmode span.bi").toggleClass("bi-moon bi-sun");
+  $("#my-btn-top").toggleClass("text-dark text-light");
+});
+
+if (
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches
+) {
+  $("#my-btn-darkmode").trigger("click");
+}
+
 $(document).ready(function () {
   $("#my-btn-top").hide();
   applyClickBtn("#my-content-home");
