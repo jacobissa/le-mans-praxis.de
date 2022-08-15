@@ -1,0 +1,23 @@
+body {
+    font-family: 'Jost', sans-serif !important;
+}
+
+#my-btn-toggler {
+    border: none;
+}
+
+#my-btn-toggler.collapsed .bi-list,
+#my-btn-toggler:not(.collapsed) .bi-x-lg {
+    display: inline-block;
+}
+
+#my-btn-toggler:not(.collapsed) .bi-list,
+#my-btn-toggler.collapsed .bi-x-lg {
+    display: none;
+}
+
+.btn-link:focus,
+.btn-link:active,
+.btn-link:active:focus {
+    box-shadow: none !important;
+}
