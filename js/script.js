@@ -1,3 +1,21 @@
+var coded = "DTbH@Hn-DT95-YfT8b5.Sn";
+var key = "mSTiGfgxA4qNJOlt2c59WMDoFbu3j8Cz17pwHeRvydaBQrVh0UILZKPEYksnX6";
+var shift = coded.length;
+var link = "";
+for (i = 0; i < coded.length; i++) {
+  if (key.indexOf(coded.charAt(i)) == -1) {
+    ltr = coded.charAt(i);
+    link += ltr;
+  } else {
+    ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
+    link += key.charAt(ltr);
+  }
+}
+document.getElementById("home-email").textContent = link;
+document.getElementById("home-email").href = "mailto:" + link;
+document.getElementById("privacy-email").textContent = link;
+document.getElementById("impressum-email").textContent = link;
+
 $(document).ready(function () {
   $("#my-btn-top").hide();
   applyClickBtn("#my-content-home");
