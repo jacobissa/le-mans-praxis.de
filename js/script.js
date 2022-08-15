@@ -22,9 +22,9 @@ $(document).ready(function () {
     applyClickBtn("#my-content-privacy");
   });
 
-  $("#my-btn-impressum").click(function () {
+  $("#my-btn-imprint").click(function () {
     closeNavbarToggler();
-    applyClickBtn("#my-content-impressum");
+    applyClickBtn("#my-content-imprint");
   });
 
   $("#my-btn-whatsapp").click(function () {
