@@ -160,4 +160,10 @@ function updateLanguage() {
   $("#my-btn-translate span").addClass(langData.flag);
 
   $("#my-btn-team").text(langData.team);
+
+  if (langCode == "ar") {
+    $("#my-header .dropdown-menu").removeClass("dropdown-menu-end");
+  } else {
+    $("#my-header .dropdown-menu").addClass("dropdown-menu-end");
+  }
 }
