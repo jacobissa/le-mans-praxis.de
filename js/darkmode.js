@@ -58,4 +58,6 @@ window
     }
   });
 
-performDarkMode(dark_mode);
+$(document).ready(function () {
+  performDarkMode(dark_mode);
+});

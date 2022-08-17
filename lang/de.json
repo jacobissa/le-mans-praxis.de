@@ -1,6 +1,13 @@
 {
     "flag": "fi fi-de",
     "title": "Le-Mans-Praxis",
+    "home": "Home",
+    "team": "Praxisteam",
+    "services": "Leistungen",
+    "doctor": "Dr. Gabie Issa",
+    "subtitle": "Hausärztliche Versorgung",
     "position": "Facharzt für Innere Medizin",
-    "team": "Praxisteam"
+    "hours": "Öffnungszeiten",
+    "nurse": "Medizinische Fachangestellte",
+    "trainee": "Auszubildende"
 }

@@ -2,7 +2,9 @@
  * language translation
  */
 
-const default_lang_code = "de";
+const lang_default = "de";
+const lang_support = ["de", "en", "ar"];
+
 let lang_code;
 let translations = {};
 
@@ -10,27 +12,22 @@ function getLanguage() {
   if (localStorage.getItem("lang") !== null) {
     return localStorage.getItem("lang");
   }
-  var lang_user = navigator.language || navigator.userLanguage;
-  if (lang_user !== null) {
-    if (lang_user.includes("de")) {
-      return "de";
-    } else if (lang_user.includes("en")) {
-      return "en";
-    } else if (lang_user.includes("ar")) {
-      return "ar";
+  if (navigator.languages) {
+    const lang_browser = new Set(navigator.languages.map((locale) => locale.split("-")[0]));
+    const lang_intersection = new Set([...lang_support].filter((x) => lang_browser.has(x)));
+    if (lang_intersection.size) {
+      return [...lang_intersection][0];
     }
   }
-  return default_lang_code;
+  return lang_default;
 }
 
 function translatePage() {
   $(document.documentElement).attr("dir", fixDirection(lang_code));
   $(document.documentElement).attr("lang", lang_code);
 
-  $("#my-btn-translate span").removeClass(
-    "bi bi-translate fs-4 fi fi-de fi-gb fi-ae"
-  );
-  $("#my-btn-translate span").addClass(translations["flag"]);
+  //$("#my-btn-translate span").removeClass("bi bi-translate fs-4 fi fi-de fi-gb fi-ae");
+  //$("#my-btn-translate span").addClass(translations["flag"]);
 
   $("[data-i18n-key]").each(function (index, element) {
     const key = $(element).attr("data-i18n-key");

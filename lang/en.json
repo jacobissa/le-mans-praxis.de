@@ -1,6 +1,13 @@
 {
     "flag": "fi fi-gb",
-    "title": "Le Mans Praxis",
+    "title": "Le Mans clinic",
+    "home": "Home",
+    "team": "Team",
+    "services": "Services",
+    "doctor": "Dr. Gabie Issa",
+    "subtitle": "General Practitioner Care",
     "position": "Specialist for Internal Medicine",
-    "team": "The Team"
+    "hours": "Opening Hours",
+    "nurse": "Medical Assistant",
+    "trainee": "Trainee"
 }
