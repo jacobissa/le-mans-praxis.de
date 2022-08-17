@@ -8,6 +8,11 @@
     "subtitle": "Hausärztliche Versorgung",
     "position": "Facharzt für Innere Medizin",
     "hours": "Öffnungszeiten",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
     "nurse": "Medizinische Fachangestellte",
     "trainee": "Auszubildende"
 }
