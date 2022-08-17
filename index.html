@@ -22,7 +22,7 @@
                     id="my-btn-logo">
                     <img class="align-self-center me-1 img-fluid" src="./img/favicon.svg" alt="Le Mans Praxis"
                         style="height: 50px;">
-                    <div class="align-self-center">Le Mans Praxis</div>
+                    <div class="align-self-center" data-i18n-key="title">Le Mans Praxis</div>
                 </button>
                 <button type="button" class="btn btn-link navbar-toggler text-dark collapsed text-dark"
                     data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="my-btn-toggler">
@@ -30,13 +30,13 @@
                     <span class="bi bi-list fs-2"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <ul class="nav navbar-nav nav-fill">
+                    <ul class="nav navbar-nav nav-fill ps-3 pe-3">
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
                             <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-home">Home</button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark"
-                                id="my-btn-team">Praxisteam</button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-team"
+                                data-i18n-key="team">Praxisteam</button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
                             <button type="button" class="btn btn-link nav-link text-dark"
@@ -54,8 +54,8 @@
                         <li class="dropdown nav-item flex-fill d-flex align-items-center text-center flex-wrap">
                             <button class="dropdown-toggle btn btn-link nav-link text-dark" type="button"
                                 id="my-btn-translate" data-bs-toggle="dropdown" aria-expanded="false"><span
-                                    class="fi fi-de"></span></button>
-                            <ul class="dropdown-menu dropdown-menu-end container mt-0 p-0"
+                                    class="bi bi-translate fs-4"></span></button>
+                            <ul class="dropdown-menu dropdown-menu-end container-fluid mt-0 p-0"
                                 aria-labelledby="my-btn-translate" style="min-width: fit-content;">
                                 <li><button type="button" onclick="setLanguage('de')"
                                         class="dropdown-item btn btn-link text-dark d-inline-flex justify-content-between align-items-center">Deutsch
