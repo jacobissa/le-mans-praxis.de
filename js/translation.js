@@ -1,60 +1,5 @@
 /**
  * language translation
-
-let lang_code = "de";
-let langData = null;
-
-function updateLanguageData() {
-  localStorage.getItem("lang") == null ? setLanguage("de") : false;
-  $.ajax({
-    url: "./lang/" + localStorage.getItem("lang") + ".json",
-    dataType: "json",
-    async: false,
-    dataType: "json",
-    success: function (lang) {
-      langData = lang;
-    },
-  });
-}
-
-function getLangCode() {
-  var langUser = navigator.language || navigator.userLanguage;
-  if (langUser.includes("en")) {
-    return "en";
-  } else if (langUser.includes("ar")) {
-    return "ar";
-  } else {
-    return "de";
-  }
-}
-var langCode = getLangCode();
-setLanguage(langCode);
-updateLanguage();
-
-function setLanguage(lang) {
-  langCode = lang;
-  localStorage.setItem("lang", lang);
-  updateLanguageData();
-  updateLanguage();
-  document.documentElement.dir = dir(langCode);
-  document.documentElement.lang = langCode;
-  function dir(locale) {
-    return locale === "ar" ? "rtl" : "ltr";
-  }
-}
-
-function updateLanguage() {
-  $("#my-btn-translate span").removeClass("fi-de fi-gb fi-ae");
-  $("#my-btn-translate span").addClass(langData.flag);
-
-  $("#my-btn-team").text(langData.team);
-
-  if (langCode == "ar") {
-    $("#my-header .dropdown-menu").removeClass("dropdown-menu-end");
-  } else {
-    $("#my-header .dropdown-menu").addClass("dropdown-menu-end");
-  }
-}
  */
 
 const default_lang_code = "de";
@@ -78,20 +23,15 @@ function getLanguage() {
   return default_lang_code;
 }
 
-async function setLocale(new_lang_code) {
-  if (new_lang_code === lang_code) return;
-  const new_translations = await fetchTranslationsFor(new_lang_code);
-  lang_code = new_lang_code;
-  translations = new_translations;
-  translatePage();
-}
-
-async function fetchTranslationsFor(new_lang_code) {
-  const response = await fetch("./lang/" + new_lang_code + ".json");
-  return await response.json();
-}
-
 function translatePage() {
+  $(document.documentElement).attr("dir", fixDirection(lang_code));
+  $(document.documentElement).attr("lang", lang_code);
+
+  $("#my-btn-translate span").removeClass(
+    "bi bi-translate fs-4 fi fi-de fi-gb fi-ae"
+  );
+  $("#my-btn-translate span").addClass(translations["flag"]);
+
   $("[data-i18n-key]").each(function (index, element) {
     const key = $(element).attr("data-i18n-key");
     const translation = translations[key];
@@ -100,10 +40,22 @@ function translatePage() {
 }
 
 function setLanguage(new_lang_code) {
-  setLocale(new_lang_code);
-  localStorage.setItem("lang", new_lang_code);
-  document.documentElement.dir = fixDirection(new_lang_code);
-  document.documentElement.lang = new_lang_code;
+  if (new_lang_code === lang_code) return;
+  $.ajax({
+    url: "./lang/" + new_lang_code + ".json",
+    dataType: "json",
+    async: false,
+    dataType: "json",
+    success: function (data, textStatus, jqXHR) {
+      translations = data;
+      lang_code = new_lang_code;
+      localStorage.setItem("lang", new_lang_code);
+      translatePage();
+    },
+    error: function (jqXHR, textStatus, errorThrown) {
+      console.log("Translation failed: " + textStatus);
+    },
+  });
 }
 
 function fixDirection(new_lang_code) {
