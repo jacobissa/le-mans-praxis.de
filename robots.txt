@@ -1,0 +1,10 @@
+Sitemap: https://le-mans-praxis.de/sitemap.xml
+Sitemap: https://le-mans-praxis.de/sitemapimages.xml
+Sitemap: https://www.le-mans-praxis.de/sitemap.xml
+Sitemap: https://www.le-mans-praxis.de/sitemapimages.xml
+
+User-agent: *
+Disallow: /backup
+Disallow: /test
+Disallow: /assets
+Disallow: /img/map.png
