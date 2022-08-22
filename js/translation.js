@@ -58,8 +58,8 @@ function setLanguage(new_lang_code) {
 function fixDirection(new_lang_code) {
   if (new_lang_code === "ar") {
     $("#my-content-home .contact-start, #my-content-home .contact-end").removeClass("pe-sm-1 pe-md-2 ps-sm-1 ps-md-2");
-    $("#my-content-home .contact-start").addClass("pe-sm-1 pe-md-2");
-    $("#my-content-home .contact-end").addClass("ps-sm-1 ps-md-2");
+    $("#my-content-home .contact-start").addClass("ps-sm-1 ps-md-2");
+    $("#my-content-home .contact-end").addClass("pe-sm-1 pe-md-2");
     $("#my-btn-floating-top").removeClass("end-0");
     $("#my-btn-floating-top").addClass("start-0");
     $("#my-header .dropdown-menu").removeClass("dropdown-menu-end");
@@ -67,8 +67,8 @@ function fixDirection(new_lang_code) {
     return "rtl";
   } else {
     $("#my-content-home .contact-start, #my-content-home .contact-end").removeClass("pe-sm-1 pe-md-2 ps-sm-1 ps-md-2");
-    $("#my-content-home .contact-start").addClass("ps-sm-1 ps-md-2");
-    $("#my-content-home .contact-end").addClass("pe-sm-1 pe-md-2");
+    $("#my-content-home .contact-start").addClass("pe-sm-1 pe-md-2");
+    $("#my-content-home .contact-end").addClass("ps-sm-1 ps-md-2");
     $("#my-btn-floating-top").removeClass("start-0");
     $("#my-btn-floating-top").addClass("end-0");
     $("#my-header .dropdown-menu").removeClass("dropdown-menu-start");
