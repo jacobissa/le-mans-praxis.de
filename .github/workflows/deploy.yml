@@ -5,8 +5,7 @@ on:
       - main
     types: [closed]
   push:
-    branches:
-      - dev
+    branches: [main, dev]
   release:
     branches:
       - main
