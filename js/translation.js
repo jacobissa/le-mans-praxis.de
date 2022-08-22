@@ -78,5 +78,5 @@ function fixDirection(new_lang_code) {
 }
 
 $(document).ready(function () {
-  //setLanguage(getLanguage());
+  setLanguage(getLanguage());
 });
