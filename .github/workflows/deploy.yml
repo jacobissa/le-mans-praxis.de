@@ -1,8 +1,8 @@
-name: Deploy Dev
+name: Deploy TEST
 on:
   pull_request:
     branches:
-      - dev
+      - main
     types: [closed]
   push:
     branches:
@@ -14,13 +14,13 @@ on:
       - published
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code
+      - name: Get latest code
         uses: actions/checkout@v3
 
-      - name: 📂 Sync files
+      - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
           server: ${{ secrets.FTP_SERVER }}
