@@ -30,6 +30,6 @@ jobs:
           server-dir: ./test/
           exclude: |
             **/.gitignore
-            **/.git/
-            **/.github/
+            **/.git/**
+            **/.github/**
             **/README.md
