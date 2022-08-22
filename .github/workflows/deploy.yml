@@ -29,4 +29,8 @@ jobs:
           protocol: ftp
           port: 21
           server-dir: ./test/
-          exclude: README.md
+          exclude: |
+            **/.gitignore
+            **/.git
+            **/.github
+            **/README.md
