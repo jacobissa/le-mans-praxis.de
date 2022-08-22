@@ -57,18 +57,20 @@ function setLanguage(new_lang_code) {
 
 function fixDirection(new_lang_code) {
   if (new_lang_code === "ar") {
-    $("#my-btn-floating-top").removeClass("end-0");
-    $("#my-btn-floating-top").addClass("start-0");
-    $("#my-header .dropdown-menu").removeClass("dropdown-menu-end");
+    $("#my-btn-floating-top").removeAttr("style");
+    $("#my-btn-floating-top").css("left", "0 !important");
+    $("#my-header .dropdown-menu").removeClass("dropdown-menu-start");
+    $("#my-header .dropdown-menu").addClass("dropdown-menu-end");
     return "rtl";
   } else {
-    $("#my-btn-floating-top").addClass("end-0");
-    $("#my-btn-floating-top").removeClass("start-0");
-    $("#my-header .dropdown-menu").addClass("dropdown-menu-end");
+    $("#my-btn-floating-top").removeAttr("style");
+    $("#my-btn-floating-top").css("right", "0 !important");
+    $("#my-header .dropdown-menu").removeClass("dropdown-menu-end");
+    $("#my-header .dropdown-menu").addClass("dropdown-menu-start");
     return "ltr";
   }
 }
 
 $(document).ready(function () {
-  setLanguage(getLanguage());
+  //setLanguage(getLanguage());
 });

@@ -14,5 +14,9 @@
     "thursday": "Donnerstag",
     "friday": "Freitag",
     "nurse": "Medizinische Fachangestellte",
-    "trainee": "Auszubildende"
+    "trainee": "Auszubildende",
+    "phone": "Telefon",
+    "fax": "Fax",
+    "whatsapp": "WhatsApp",
+    "email": "E-Mail"
 }

@@ -14,5 +14,9 @@
     "thursday": "Thursday",
     "friday": "Friday",
     "nurse": "Medical Assistant",
-    "trainee": "Trainee"
+    "trainee": "Trainee",
+    "phone": "Phone",
+    "fax": "Fax",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
 }
