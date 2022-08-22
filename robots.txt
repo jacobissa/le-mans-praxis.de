@@ -6,5 +6,6 @@ Sitemap: https://www.le-mans-praxis.de/sitemapimages.xml
 User-agent: *
 Disallow: /backup
 Disallow: /test
+Disallow: /dev
 Disallow: /assets
 Disallow: /img/map.png

@@ -1,17 +1,8 @@
-name: Deploy TEST
+name: Deploy Release
 on:
-  pull_request:
-    branches:
-      - main
-    types: [closed]
-  push:
-    branches:
-      - dev
   release:
-    branches:
-      - main
-    types:
-      - published
+    branches: [main]
+    types: [published]
 jobs:
   web-deploy:
     name: Deploy
@@ -28,4 +19,9 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          server-dir: ./test/
+          server-dir: ./
+          exclude: |
+            **/.gitignore
+            **/.git/**
+            **/.github/**
+            **/README.md
