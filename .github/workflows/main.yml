@@ -18,4 +18,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          server-dir: ./httpd.www/test/
+          server-dir: ./test/
