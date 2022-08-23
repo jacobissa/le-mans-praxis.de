@@ -12,6 +12,7 @@ function performDarkMode(new_dark_mode) {
   dark_mode = new_dark_mode;
   localStorage.setItem("dark", new_dark_mode);
   if (new_dark_mode === true) {
+    $("html meta[name='theme-color']").attr("content", "var(--bs-secondary)");
     $("body").addClass("bg-dark text-light");
     $("#my-header").addClass("bg-secondary");
     $("#my-header").removeClass("bg-light");
@@ -25,6 +26,7 @@ function performDarkMode(new_dark_mode) {
     $("#my-btn-floating-top").removeClass("text-dark");
     $("#my-header .dropdown-menu").addClass("dropdown-menu-dark");
   } else {
+    $("html meta[name='theme-color']").attr("content", "var(--bs-light)");
     $("body").removeClass("bg-dark text-light");
     $("#my-header").removeClass("bg-secondary");
     $("#my-header").addClass("bg-light");
@@ -50,13 +52,11 @@ function isDarkMode() {
   }
 }
 
-window
-  .matchMedia("(prefers-color-scheme: dark)")
-  .addEventListener("change", (event) => {
-    if (dark_mode !== event.matches) {
-      performDarkMode(event.matches);
-    }
-  });
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (event) => {
+  if (dark_mode !== event.matches) {
+    performDarkMode(event.matches);
+  }
+});
 
 $(document).ready(function () {
   performDarkMode(dark_mode);
