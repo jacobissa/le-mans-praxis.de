@@ -23,7 +23,7 @@ document.getElementById("impressum-email").textContent = link;
  * collapse navbar toggler btn
  */
 $(
-  "#my-btn-home, #my-btn-logo, #my-btn-team, #my-btn-services, #my-btn-privacy, #my-btn-imprint, #my-btn-whatsapp,#my-btn-floating-top, #my-btn-footer-top"
+  "#my-btn-home, #my-btn-logo, #my-btn-team, #my-btn-services, #my-btn-privacy, #my-btn-imprint, #my-btn-whatsapp,#my-btn-floating-top, #my-btn-footer-top, #my-btn-darkmode"
 ).on("click", function () {
   if (!$("#my-btn-toggler").hasClass("collapsed")) {
     $("#my-btn-toggler").trigger("click");
