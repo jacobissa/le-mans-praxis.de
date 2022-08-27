@@ -20,6 +20,7 @@ jobs:
           protocol: ftp
           port: 21
           server-dir: ./
+          state-name: .sync-state.json
           exclude: |
             **/.gitignore
             **/.git/**
