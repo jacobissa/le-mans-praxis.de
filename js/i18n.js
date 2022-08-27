@@ -1,5 +1,5 @@
 /**
- * language translation
+ * i18n translations
  */
 
 const lang_default = "de";
