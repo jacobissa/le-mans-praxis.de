@@ -23,7 +23,7 @@ document.getElementById("impressum-email").textContent = link;
  * collapse navbar toggler btn
  */
 $(
-  "#my-btn-home, #my-btn-logo, #my-btn-team, #my-btn-services, #my-btn-privacy, #my-btn-imprint, #my-btn-whatsapp,#my-btn-floating-top, #my-btn-footer-top"
+  "#my-btn-home, #my-btn-logo, #my-btn-team, #my-btn-services, #my-btn-privacy, #my-btn-imprint, #my-btn-whatsapp,#my-btn-floating-top, #my-btn-footer-top, #my-btn-darkmode"
 ).on("click", function () {
   if (!$("#my-btn-toggler").hasClass("collapsed")) {
     $("#my-btn-toggler").trigger("click");
@@ -69,17 +69,13 @@ $("#my-btn-floating-top, #my-btn-footer-top").click(function () {
   $("html, body").stop().animate({ scrollTop: 0 }, 500, "swing");
 });
 $(window).scroll(function () {
-  var distance =
-    $("body").height() -
-    $(this).scrollTop() -
-    $(window).height() -
-    $("#my-footer").outerHeight();
+  var distance = $("body").height() - $(this).scrollTop() - $(window).height() - $("#my-footer").outerHeight();
 
   if (distance < 0) {
-    $("#my-btn-floating-top").fadeOut("fast");
-  } else if ($(this).scrollTop() > 200) {
-    $("#my-btn-floating-top").slideDown("fast");
+    $("#my-btn-floating-top").fadeOut();
+  } else if ($(this).scrollTop() > 250) {
+    $("#my-btn-floating-top").fadeIn();
   } else {
-    $("#my-btn-floating-top").slideUp("fast");
+    $("#my-btn-floating-top").fadeOut();
   }
 });
