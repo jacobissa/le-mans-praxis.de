@@ -29,14 +29,14 @@ ErrorDocument 404 https://le-mans-praxis.de
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
-ExpiresDefault                          "access plus 1 day"
-ExpiresByType text/css                  "access plus 1 day"
-ExpiresByType text/javascript           "access plus 1 day"
-ExpiresByType application/json          "access plus 1 day"
-ExpiresByType application/manifest+json "access plus 1 day"
-ExpiresByType image/jpeg                "access plus 1 month"
-ExpiresByType image/png                 "access plus 1 month"
-ExpiresByType image/svg+xml             "access plus 1 month"
-ExpiresByType font/ttf                  "access plus 1 year"
+ExpiresDefault                          "access plus 2 months"
+ExpiresByType text/css                  "access plus 2 months"
+ExpiresByType text/javascript           "access plus 2 months"
+ExpiresByType application/json          "access plus 2 months"
+ExpiresByType application/manifest+json "access plus 2 months"
+ExpiresByType image/jpeg                "access plus 2 months"
+ExpiresByType image/png                 "access plus 2 months"
+ExpiresByType image/svg+xml             "access plus 2 months"
+ExpiresByType font/ttf                  "access plus 2 months"
 </IfModule>
 ## EXPIRES CACHING ##
