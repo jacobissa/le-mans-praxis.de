@@ -42,7 +42,6 @@ function setLanguage(new_lang_code) {
     url: "./lang/" + new_lang_code + ".json",
     dataType: "json",
     async: false,
-    dataType: "json",
     success: function (data, textStatus, jqXHR) {
       translations = data;
       lang_code = new_lang_code;
