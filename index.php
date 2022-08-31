@@ -1,5 +1,15 @@
-<?php 
-
+<?php
+$website_version = "5.0.0";
+$website_date = "01.09.2022";
+$css_version = "5.0.0";
+$js_version = "5.0.0";
+$favicon_version = "5.0.0";
+$img_version = "5.0.0";
+$jquery_version = "3.6.0";
+$bootstrap_version = "5.2.0";
+$bootstrap_icons_version = "1.9.1";
+$flag_icons_version = "6.6.3";
+$jost_font_version = "3.5.0";
 ?>
 <!DOCTYPE html>
 <html lang="de" dir="ltr" prefix="og: https://ogp.me/ns#">
@@ -7,8 +17,8 @@
 <!--
 #=====================================================
 # Webdesigner & Developer:      Jacob Issa
-# Version:                      5.0.0
-# Date:                         31.08.2022
+# Version:                      <?php echo $website_version . PHP_EOL; ?>
+# Date:                         <?php echo $website_date . PHP_EOL; ?>
 #=====================================================
 -->
 
@@ -31,11 +41,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg">
-    <link rel="mask-icon" type="image/svg+xml" href="./favicon/mask-icon.svg" color="#000000">
-    <link rel="shortcut icon" type="image/svg+xml" href="./favicon/favicon.svg">
-    <link rel="apple-touch-icon" type="image/png" href="./favicon/apple-touch-icon.png">
-    <link rel="manifest" type="application/manifest+json" href="./favicon/manifest.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg?v=<?php echo $favicon_version; ?>">
+    <link rel="mask-icon" type="image/svg+xml" href="./favicon/mask-icon.svg?v=<?php echo $favicon_version; ?>" color="#000000">
+    <link rel="shortcut icon" type="image/svg+xml" href="./favicon/favicon.svg?v=<?php echo $favicon_version; ?>">
+    <link rel="apple-touch-icon" type="image/png" href="./favicon/apple-touch-icon.png?v=<?php echo $favicon_version; ?>">
+    <link rel="manifest" type="application/manifest+json" href="./favicon/manifest.webmanifest?v=<?php echo $favicon_version; ?>">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -46,7 +56,7 @@
     <meta property="og:locale" content="de_DE">
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:locale:alternate" content="ar_AR">
-    <meta property="og:image" content="https://le-mans-praxis.de/img/praxisteam.jpg">
+    <meta property="og:image" content="https://le-mans-praxis.de/img/praxisteam.jpg?v=<?php echo $img_version; ?>">
     <meta property="og:image:alt" content="Le Mans Praxis">
     <meta property="og:image:type" content="image/jpeg" />
 
@@ -56,15 +66,15 @@
     <meta name="twitter:title" content="Le Mans Praxis">
     <meta name="twitter:description"
         content="Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
-    <meta name="twitter:image:secure_url" content="https://le-mans-praxis.de/img/praxisteam.jpg">
+    <meta name="twitter:image:secure_url" content="https://le-mans-praxis.de/img/praxisteam.jpg?v=<?php echo $img_version; ?>">
     <meta name="twitter:image:alt" content="Le Mans Praxis">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="./lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./lib/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="./lib/flag-icons/flag-icons.css">
-    <link rel="stylesheet" type="text/css" href="./lib/jost/jost.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./lib/bootstrap/css/bootstrap.min.css?v=<?php echo $bootstrap_version; ?>">
+    <link rel="stylesheet" type="text/css" href="./lib/bootstrap-icons/bootstrap-icons.css?v=<?php echo $bootstrap_icons_version; ?>">
+    <link rel="stylesheet" type="text/css" href="./lib/flag-icons/flag-icons.css?v=<?php echo $flag_icons_version; ?>">
+    <link rel="stylesheet" type="text/css" href="./lib/jost/jost.css?v=<?php echo $jost_font_version; ?>" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css?v=<?php echo $css_version; ?>">
 </head>
 
 <body>
@@ -74,7 +84,7 @@
             <div class="container-fluid">
                 <button type="button" class="btn btn-link navbar-brand ms-3 d-flex flex-nowrap text-dark"
                     id="my-btn-logo">
-                    <img class="align-self-center me-1 img-fluid" src="./favicon/favicon.svg" alt="Le Mans Praxis"
+                    <img class="align-self-center me-1 img-fluid" src="./favicon/favicon.svg?v=<?php echo $favicon_version; ?>" alt="Le Mans Praxis"
                         width="61.23" height="50" style="height: 50px;">
                     <div class="align-self-center" data-i18n-key="title">Le Mans Praxis</div>
                 </button>
@@ -158,7 +168,7 @@
             <!-- Main photo -->
             <div class="container my-3 p-4">
                 <div class="row mx-0">
-                    <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/praxisteam.jpg"
+                    <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/praxisteam.jpg?v=<?php echo $img_version; ?>"
                         alt="Le Mans Praxis" width="4896" height="3688" />
                 </div>
             </div>
@@ -278,7 +288,7 @@
                     <span class="d-inline-block">Le-Mans-Wall 9,</span>
                     <span class="d-inline-block">33098 Paderborn</span>
                 </div>
-                <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/map.png"
+                <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/map.png?v=<?php echo $img_version; ?>"
                     onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')"
                     alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany." width="2564" height="960"
                     style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
@@ -298,7 +308,7 @@
             <div class="container my-3 p-4">
                 <div class="row d-flex justify-content-center mx-0">
                     <div class="card border shadow col-12 col-md-6 col-lg-4 px-0 mx-3">
-                        <img class="card-img-top" src="./img/issa.jpg" alt="Dr. Gabie Issa" width="979">
+                        <img class="card-img-top" src="./img/issa.jpg?v=<?php echo $img_version; ?>" alt="Dr. Gabie Issa" width="979">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all" data-i18n-key="doctor">Dr. Gabie
                                 Issa</h5>
@@ -313,7 +323,7 @@
             <div class="container my-3 p-4">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 d-flex justify-content-center mx-0">
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
-                        <img class=" card-img-top" src="./img/zuka.jpg" alt="Nexharie Zuka" width="696">
+                        <img class=" card-img-top" src="./img/zuka.jpg?v=<?php echo $img_version; ?>" alt="Nexharie Zuka" width="696">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Nexharie Zuka</h5>
                             <p class="card-text text-center user-select-all" data-i18n-key="nurse">Medizinische
@@ -322,7 +332,7 @@
                         </div>
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
-                        <img class=" card-img-top" src="./img/ischuh.jpg" alt="Simone Ischuh" width="696">
+                        <img class=" card-img-top" src="./img/ischuh.jpg?v=<?php echo $img_version; ?>" alt="Simone Ischuh" width="696">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Simone Ischuh</h5>
                             <p class="card-text text-center user-select-all" data-i18n-key="nurse">Medizinische
@@ -331,7 +341,7 @@
                         </div>
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
-                        <img class=" card-img-top" src="./img/ewers.jpg" alt="Sabrina Ewers" width="696">
+                        <img class=" card-img-top" src="./img/ewers.jpg?v=<?php echo $img_version; ?>" alt="Sabrina Ewers" width="696">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Sabrina Ewers</h5>
                             <p class="card-text text-center user-select-all" data-i18n-key="nurse">Medizinische
@@ -340,7 +350,7 @@
                         </div>
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
-                        <img class=" card-img-top" src="./img/idrizaj.jpg" alt="Florida Idrizaj" width="696">
+                        <img class=" card-img-top" src="./img/idrizaj.jpg?v=<?php echo $img_version; ?>" alt="Florida Idrizaj" width="696">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Florida Idrizaj</h5>
                             <p class="card-text text-center user-select-all" data-i18n-key="nurse">Medizinische
@@ -349,7 +359,7 @@
                         </div>
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
-                        <img class=" card-img-top" src="./img/akcay.jpg" alt="Gülbahar Akcay" width="696">
+                        <img class=" card-img-top" src="./img/akcay.jpg?v=<?php echo $img_version; ?>" alt="Gülbahar Akcay" width="696">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Gülbahar Akcay</h5>
                             <p class="card-text text-center user-select-all" data-i18n-key="nurse">Medizinische
@@ -358,7 +368,7 @@
                         </div>
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
-                        <img class=" card-img-top" src="./img/tegethoff.jpg" alt="Julia Tegethoff" width="696">
+                        <img class=" card-img-top" src="./img/tegethoff.jpg?v=<?php echo $img_version; ?>" alt="Julia Tegethoff" width="696">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Julia Tegethoff</h5>
                             <p class="card-text text-center user-select-all" data-i18n-key="trainee">Auszubildende
@@ -1685,11 +1695,11 @@
         </button>
     </div>
 
-    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./lib/jquery/jquery-3.6.0.min.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/darkmode.js"></script>
-    <!-- <script src="./js/i18n.js"></script> -->
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js?v=<?php echo $bootstrap_version; ?>"></script>
+    <script src="./lib/jquery/jquery.min.js?v=<?php echo $jquery_version; ?>"></script>
+    <script src="./js/script.js?v=<?php echo $js_version; ?>"></script>
+    <script src="./js/darkmode.js?v=<?php echo $js_version; ?>"></script>
+    <!-- <script src="./js/i18n.js?v=<?php echo $js_version; ?>"></script> -->
 </body>
 
 </html>
