@@ -1,3 +1,6 @@
+<?php 
+
+?>
 <!DOCTYPE html>
 <html lang="de" dir="ltr" prefix="og: https://ogp.me/ns#">
 
