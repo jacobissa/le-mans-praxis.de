@@ -157,7 +157,7 @@ $jost_font_version = "3.5.0";
                 <div class="row mx-0">
                     <picture>
                         <source srcset="./img/home/team.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" />
+                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" width="4896" height="3688" />
                     </picture>
                 </div>
             </div>
@@ -265,7 +265,7 @@ $jost_font_version = "3.5.0";
                 </div>
                 <picture>
                     <source srcset="./img/home/map.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                    <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/home/map.png?v=<?php echo $img_version; ?>" onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')" alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany." style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
+                    <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/home/map.png?v=<?php echo $img_version; ?>" onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')" alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany" width="2564" height="960" style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
                 </picture>
             </div>
         </div>
@@ -285,7 +285,7 @@ $jost_font_version = "3.5.0";
                     <div class="card border shadow col-12 col-md-6 col-lg-4 px-0 mx-3">
                         <picture>
                             <source srcset="./img/team/issa.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class="card-img-top" src="./img/team/issa.jpg?v=<?php echo $img_version; ?>" alt="Dr. Gabie Issa">
+                            <img class="card-img-top" src="./img/team/issa.jpg?v=<?php echo $img_version; ?>" alt="Dr. Gabie Issa" width="979" />
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all" data-i18n-key="doctor">Dr. Gabie
@@ -303,7 +303,7 @@ $jost_font_version = "3.5.0";
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
                             <source srcset="./img/team/zuka.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="./img/team/zuka.jpg?v=<?php echo $img_version; ?>" alt="Nexharie Zuka">
+                            <img class=" card-img-top" src="./img/team/zuka.jpg?v=<?php echo $img_version; ?>" alt="Nexharie Zuka" width="696" />
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Nexharie Zuka</h5>
@@ -315,7 +315,7 @@ $jost_font_version = "3.5.0";
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
                             <source srcset="./img/team/ischuh.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="./img/team/ischuh.jpg?v=<?php echo $img_version; ?>" alt="Simone Ischuh">
+                            <img class=" card-img-top" src="./img/team/ischuh.jpg?v=<?php echo $img_version; ?>" alt="Simone Ischuh" width="696" />
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Simone Ischuh</h5>
@@ -327,7 +327,7 @@ $jost_font_version = "3.5.0";
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
                             <source srcset="./img/team/ewers.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="./img/team/ewers.jpg?v=<?php echo $img_version; ?>" alt="Sabrina Ewers">
+                            <img class=" card-img-top" src="./img/team/ewers.jpg?v=<?php echo $img_version; ?>" alt="Sabrina Ewers" width="696" />
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Sabrina Ewers</h5>
@@ -339,7 +339,7 @@ $jost_font_version = "3.5.0";
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
                             <source srcset="./img/team/idrizaj.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="./img/team/idrizaj.jpg?v=<?php echo $img_version; ?>" alt="Florida Idrizaj">
+                            <img class=" card-img-top" src="./img/team/idrizaj.jpg?v=<?php echo $img_version; ?>" alt="Florida Idrizaj" width="696" />
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Florida Idrizaj</h5>
@@ -351,7 +351,7 @@ $jost_font_version = "3.5.0";
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
                             <source srcset="./img/team/akcay.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="./img/team/akcay.jpg?v=<?php echo $img_version; ?>" alt="Gülbahar Akcay">
+                            <img class=" card-img-top" src="./img/team/akcay.jpg?v=<?php echo $img_version; ?>" alt="Gülbahar Akcay" width="696" />
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Gülbahar Akcay</h5>
@@ -363,7 +363,7 @@ $jost_font_version = "3.5.0";
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
                             <source srcset="./img/team/tegethoff.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="./img/team/tegethoff.jpg?v=<?php echo $img_version; ?>" alt="Julia Tegethoff">
+                            <img class=" card-img-top" src="./img/team/tegethoff.jpg?v=<?php echo $img_version; ?>" alt="Julia Tegethoff" width="696" />
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Julia Tegethoff</h5>
