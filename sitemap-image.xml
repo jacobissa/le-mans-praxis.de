@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://le-mans-praxis.de</loc>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/home/team.webp</image:loc>
+      <image:caption>Le Mans Praxis</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Le Mans Praxis</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/home/team.jpg</image:loc>
+      <image:caption>Le Mans Praxis</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Le Mans Praxis</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/issa.webp</image:loc>
+      <image:caption>Dr. Gabie Issa</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Dr. Gabie Issa</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/issa.jpg</image:loc>
+      <image:caption>Dr. Gabie Issa</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Dr. Gabie Issa</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/zuka.webp</image:loc>
+      <image:caption>Nexharie Zuka</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Nexharie Zuka</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/zuka.jpg</image:loc>
+      <image:caption>Nexharie Zuka</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Nexharie Zuka</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/ischuh.webp</image:loc>
+      <image:caption>Simone Ischuh</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Simone Ischuh</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/ischuh.jpg</image:loc>
+      <image:caption>Simone Ischuh</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Simone Ischuh</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/ewers.webp</image:loc>
+      <image:caption>Sabrina Ewers</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Sabrina Ewers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/ewers.jpg</image:loc>
+      <image:caption>Sabrina Ewers</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Sabrina Ewers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/idrizaj.webp</image:loc>
+      <image:caption>Florida Idrizaj</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Florida Idrizaj</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/idrizaj.jpg</image:loc>
+      <image:caption>Florida Idrizaj</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Florida Idrizaj</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/tegethoff.webp</image:loc>
+      <image:caption>Julia Tegethoff</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Julia Tegethoff</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://le-mans-praxis.de/img/team/tegethoff.jpg</image:loc>
+      <image:caption>Julia Tegethoff</image:caption>
+      <image:geo_location>Paderborn, Germany</image:geo_location>
+      <image:title>Julia Tegethoff</image:title>
+    </image:image>
+  </url>
+</urlset>
