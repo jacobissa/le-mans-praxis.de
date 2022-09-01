@@ -1,10 +1,10 @@
 <?php
-$website_version = "5.0.0";
+$website_version = "5.0.1";
 $website_date = "01.09.2022";
 $css_version = "5.0.0";
 $js_version = "5.0.0";
 $favicon_version = "5.0.0";
-$img_version = "5.0.0";
+$img_version = "5.0.1";
 $jquery_version = "3.6.0";
 $bootstrap_version = "5.2.0";
 $bootstrap_icons_version = "1.9.1";
@@ -28,11 +28,9 @@ $jost_font_version = "3.5.0";
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="title" content="Le Mans Praxis">
-    <meta name="description"
-        content="Le Mans Praxis, Hausarzt Praxis, Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
+    <meta name="description" content="Le Mans Praxis, Hausarzt Praxis, Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
     <meta name="copyright" content="Le Mans Praxis">
-    <meta name="keywords"
-        content="Le Mans Praxis, Hausarzt Praxis, Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
+    <meta name="keywords" content="Le Mans Praxis, Hausarzt Praxis, Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
     <meta name="author" content="Jacob Issa">
     <meta name="theme-color" content="#f8f9fa">
     <meta name="color-scheme" content="light dark">
@@ -51,8 +49,7 @@ $jost_font_version = "3.5.0";
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://le-mans-praxis.de">
     <meta property="og:title" content="Le Mans Praxis, Dr. Gabie Issa">
-    <meta property="og:description"
-        content="Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
+    <meta property="og:description" content="Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
     <meta property="og:locale" content="de_DE">
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:locale:alternate" content="ar_AR">
@@ -64,8 +61,7 @@ $jost_font_version = "3.5.0";
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://le-mans-praxis.de">
     <meta name="twitter:title" content="Le Mans Praxis">
-    <meta name="twitter:description"
-        content="Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
+    <meta name="twitter:description" content="Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
     <meta name="twitter:image:secure_url" content="https://le-mans-praxis.de/img/praxisteam.jpg?v=<?php echo $img_version; ?>">
     <meta name="twitter:image:alt" content="Le Mans Praxis">
 
@@ -82,39 +78,30 @@ $jost_font_version = "3.5.0";
     <div class="mb-3 pb-3">
         <nav id="my-header" class="navbar fixed-top navbar-expand-md shadow mb-3 pb-3 text-dark bg-light">
             <div class="container-fluid">
-                <button type="button" class="btn btn-link navbar-brand ms-3 d-flex flex-nowrap text-dark"
-                    id="my-btn-logo">
-                    <img class="align-self-center me-1 img-fluid" src="./favicon/favicon.svg?v=<?php echo $favicon_version; ?>" alt="Le Mans Praxis"
-                        width="61.23" height="50" style="height: 50px;">
+                <button type="button" class="btn btn-link navbar-brand ms-3 d-flex flex-nowrap text-dark" id="my-btn-logo">
+                    <img class="align-self-center me-1 img-fluid" src="./favicon/favicon.svg?v=<?php echo $favicon_version; ?>" alt="Le Mans Praxis" width="61.23" height="50" style="height: 50px;">
                     <div class="align-self-center" data-i18n-key="title">Le Mans Praxis</div>
                 </button>
-                <button type="button" class="btn btn-link navbar-toggler text-dark collapsed text-dark"
-                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="my-btn-toggler">
+                <button type="button" class="btn btn-link navbar-toggler text-dark collapsed text-dark" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="my-btn-toggler">
                     <span class="bi bi-x-lg fs-2"></span>
                     <span class="bi bi-list fs-2"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                     <ul class="nav navbar-nav nav-fill ps-3 pe-3">
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-home"
-                                data-i18n-key="home">Home</button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-home" data-i18n-key="home">Home</button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-team"
-                                data-i18n-key="team">Praxisteam</button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-team" data-i18n-key="team">Praxisteam</button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-services"
-                                data-i18n-key="services">Leistungen</button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-services" data-i18n-key="services">Leistungen</button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-whatsapp"
-                                onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')"><span
-                                    class="bi bi-whatsapp fs-4"></span></button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-whatsapp" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')"><span class="bi bi-whatsapp fs-4"></span></button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-darkmode"><span
-                                    class="bi bi-moon fs-4"></span></button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-darkmode"><span class="bi bi-moon fs-4"></span></button>
                         </li>
                         <!--
                         <li class="dropdown nav-item flex-fill d-flex align-items-cente text-center flex-wrap">
@@ -168,8 +155,10 @@ $jost_font_version = "3.5.0";
             <!-- Main photo -->
             <div class="container my-3 p-4">
                 <div class="row mx-0">
-                    <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/praxisteam.jpg?v=<?php echo $img_version; ?>"
-                        alt="Le Mans Praxis" width="4896" height="3688" />
+                    <picture>
+                        <source srcset="./img/webp/team.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/praxisteam.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" width="4896" height="3688" />
+                    </picture>
                 </div>
             </div>
 
@@ -178,34 +167,29 @@ $jost_font_version = "3.5.0";
                 <div class="h1 fs-1 fw-bolder my-2 py-2 text-center user-select-none" data-i18n-key="hours">
                     Öffnungszeiten</div>
                 <div class="row my-2 py-2 g-3 mx-0 user-select-all">
-                    <div
-                        class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
+                    <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
                         <div class="col-4 col-sm-6 col-md px-3" data-i18n-key="monday">Montag</div>
                         <div class="col col-sm-6 col-md-4 px-3 text-wrap">
                             8&#8211;12&nbsp;&#38;&nbsp;14&#8211;17&nbsp;Uhr
                         </div>
                     </div>
-                    <div
-                        class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
+                    <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
                         <div class="col-4 col-sm-6 col-md px-3" data-i18n-key="tuesday">Dienstag</div>
                         <div class="col col-sm-6 col-md-4 px-3 text-wrap">
                             8&#8211;12&nbsp;&#38;&nbsp;14&#8211;17&nbsp;Uhr
                         </div>
                     </div>
-                    <div
-                        class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
+                    <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
                         <div class="col-4 col-sm-6 col-md px-3" data-i18n-key="wednesday">Mittwoch</div>
                         <div class="col col-sm-6 col-md-4 px-3 text-wrap">8&#8211;12&nbsp;Uhr</div>
                     </div>
-                    <div
-                        class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
+                    <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
                         <div class="col-4 col-sm-6 col-md px-3" data-i18n-key="thursday">Donnerstag</div>
                         <div class="col col-sm-6 col-md-4 px-3 text-wrap">
                             8&#8211;12&nbsp;&#38;&nbsp;14&#8211;18&nbsp;Uhr
                         </div>
                     </div>
-                    <div
-                        class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
+                    <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
                         <div class="col-4 col-sm-6 col-md px-3" data-i18n-key="friday">Freitag</div>
                         <div class="col col-sm-6 col-md-4 px-3 text-wrap">8&#8211;12&nbsp;Uhr</div>
                     </div>
@@ -225,10 +209,8 @@ $jost_font_version = "3.5.0";
                 </div>
                 <div class="row row-cols-1 row-cols-sm-2 mx-0 my-3 g-3">
                     <div class="contact-start col px-0 pe-sm-2">
-                        <div
-                            class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-                            <div
-                                class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
+                        <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
+                            <div class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
                                 <span class="bi bi-telephone fs-2"></span>
                             </div>
                             <div class="col px-auto text-center text-wrap user-select-all">
@@ -238,10 +220,8 @@ $jost_font_version = "3.5.0";
                         </div>
                     </div>
                     <div class="contact-end col px-0 ps-sm-2">
-                        <div
-                            class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-                            <div
-                                class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
+                        <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
+                            <div class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
                                 <span class="bi bi-printer fs-2"></span>
                             </div>
                             <div class="col px-auto text-center text-wrap user-select-all">
@@ -251,25 +231,20 @@ $jost_font_version = "3.5.0";
                         </div>
                     </div>
                     <div class="contact-start col px-0 pe-sm-2">
-                        <div
-                            class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-                            <div
-                                class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
+                        <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
+                            <div class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
                                 <span class="bi bi-whatsapp fs-2"></span>
                             </div>
                             <div class="col px-auto text-center text-wrap user-select-all">
                                 <div class="fw-semibold" data-i18n-key="whatsapp">WhatsApp</div>
-                                <div><a class="link-dark" style="cursor: pointer;"
-                                        onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')">05251281331</a>
+                                <div><a class="link-dark" style="cursor: pointer;" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')">05251281331</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="contact-end col px-0 ps-sm-2">
-                        <div
-                            class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-                            <div
-                                class="col-2 col-md-4 px-auto text-center d-inline-flex align-self-center justify-content-start">
+                        <div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
+                            <div class="col-2 col-md-4 px-auto text-center d-inline-flex align-self-center justify-content-start">
                                 <span class="bi bi-envelope fs-2"></span>
                             </div>
                             <div class="col px-auto text-center text-wrap user-select-all">
@@ -288,10 +263,10 @@ $jost_font_version = "3.5.0";
                     <span class="d-inline-block">Le-Mans-Wall 9,</span>
                     <span class="d-inline-block">33098 Paderborn</span>
                 </div>
-                <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/map.png?v=<?php echo $img_version; ?>"
-                    onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')"
-                    alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany." width="2564" height="960"
-                    style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
+                <picture>
+                    <source srcset="./img/webp/map.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                    <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/map.png?v=<?php echo $img_version; ?>" onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')" alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany." width="2564" height="960" style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
+                </picture>
             </div>
         </div>
 
@@ -1369,8 +1344,7 @@ $jost_font_version = "3.5.0";
                     <p>
                         Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche
                         Gesellschaft für
-                        Datenschutz GmbH, die als <a
-                            onclick="window.open('https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter' , '_blank')">Externer
+                        Datenschutz GmbH, die als <a onclick="window.open('https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter' , '_blank')">Externer
                             Datenschutzbeauftragter Bayern</a> tätig ist, in
                         Kooperation
                         mit dem <a onclick="window.open('https://www.wbs-law.de' , '_blank')">Datenschutz Anwalt
@@ -1658,7 +1632,6 @@ $jost_font_version = "3.5.0";
                     <p>
                         Jacob Issa
                     </p>
-                    </p>
                 </div>
             </div>
         </div>
@@ -1667,8 +1640,7 @@ $jost_font_version = "3.5.0";
 
     <!-- Footer -->
     <div id="my-footer">
-        <div
-            class="container-fluid d-flex justify-content-between align-items-center flex-nowrap mt-3 py-3 bg-secondary text-white">
+        <div class="container-fluid d-flex justify-content-between align-items-center flex-nowrap mt-3 py-3 bg-secondary text-white">
             <div class="px-2 text-center user-select-none">&copy; Le Mans Praxis 2022</div>
             <div class="d-flex flex-row flex-nowrap justify-content-between">
                 <div class="px-2 text-center">
@@ -1689,8 +1661,7 @@ $jost_font_version = "3.5.0";
 
     <!-- Modal -->
     <div id="my-modal">
-        <button class="position-fixed end-0 bottom-0 btn btn-link text-dark rounded-circle" id="my-btn-floating-top"
-            title="Go to Top">
+        <button class="position-fixed end-0 bottom-0 btn btn-link text-dark rounded-circle" id="my-btn-floating-top" title="Go to Top">
             <span class="bi bi-arrow-up-circle fs-2"></span>
         </button>
     </div>
