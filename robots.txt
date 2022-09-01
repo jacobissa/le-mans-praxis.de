@@ -5,6 +5,6 @@ User-agent: *
 Disallow: /backup
 Disallow: /test
 Disallow: /dev
-Disallow: /assets
+Disallow: /lib
 Disallow: /img/home/map.png
 Disallow: /img/home/map.webp
