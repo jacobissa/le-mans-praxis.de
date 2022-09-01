@@ -43,7 +43,7 @@ $jost_font_version = "3.5.0";
     <link rel="mask-icon" type="image/svg+xml" href="/img/favicon/mask-icon.svg?v=<?php echo $favicon_version; ?>" color="#000000">
     <link rel="shortcut icon" type="image/svg+xml" href="/img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>">
     <link rel="apple-touch-icon" type="image/png" href="/img/favicon/apple-touch-icon.png?v=<?php echo $favicon_version; ?>">
-    <link rel="manifest" type="application/manifest+json" href="/img/favicon/app.webmanifest?v=<?php echo $favicon_version; ?>">
+    <link rel="manifest" type="application/manifest+json" href="/img/favicon/site.webmanifest?v=<?php echo $favicon_version; ?>">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">

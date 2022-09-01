@@ -3,9 +3,10 @@
     "name": "Le Mans Praxis",
     "short_name": "Le Mans Praxis",
     "lang": "de-DE",
+    "start_url": "/",
+    "display": "standalone",
     "background_color": "#f8f9fa",
     "theme_color": "#f8f9fa",
-    "display": "standalone",
     "author": "Jacob Issa",
     "icons": [
         {
