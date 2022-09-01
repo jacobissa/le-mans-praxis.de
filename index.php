@@ -39,11 +39,11 @@ $jost_font_version = "3.5.0";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>">
-    <link rel="mask-icon" type="image/svg+xml" href="/img/favicon/mask-icon.svg?v=<?php echo $favicon_version; ?>" color="#000000">
-    <link rel="shortcut icon" type="image/svg+xml" href="/img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>">
-    <link rel="apple-touch-icon" type="image/png" href="/img/favicon/apple-touch-icon.png?v=<?php echo $favicon_version; ?>">
-    <link rel="manifest" type="application/manifest+json" href="/img/favicon/site.webmanifest?v=<?php echo $favicon_version; ?>">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>">
+    <link rel="mask-icon" type="image/svg+xml" href="./img/favicon/mask-icon.svg?v=<?php echo $favicon_version; ?>" color="#000000">
+    <link rel="shortcut icon" type="image/svg+xml" href="./img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>">
+    <link rel="apple-touch-icon" type="image/png" href="./img/favicon/apple-touch-icon.png?v=<?php echo $favicon_version; ?>">
+    <link rel="manifest" type="application/manifest+json" href="./site.webmanifest?v=<?php echo $favicon_version; ?>">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -53,7 +53,7 @@ $jost_font_version = "3.5.0";
     <meta property="og:locale" content="de_DE">
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:locale:alternate" content="ar_AR">
-    <meta property="og:image" content="https://le-mans-praxis.de/img/praxisteam.jpg?v=<?php echo $img_version; ?>">
+    <meta property="og:image" content="https://le-mans-praxis.de/img/home/team.jpg?v=<?php echo $img_version; ?>">
     <meta property="og:image:alt" content="Le Mans Praxis">
     <meta property="og:image:type" content="image/jpeg" />
 
@@ -62,15 +62,15 @@ $jost_font_version = "3.5.0";
     <meta name="twitter:url" content="https://le-mans-praxis.de">
     <meta name="twitter:title" content="Le Mans Praxis">
     <meta name="twitter:description" content="Dr. Gabie Issa, Facharzt, Innere Medizin, Hausarzt, Internist, Le-Mans-Wall 9, Paderborn, Germany">
-    <meta name="twitter:image:secure_url" content="https://le-mans-praxis.de/img/praxisteam.jpg?v=<?php echo $img_version; ?>">
+    <meta name="twitter:image:secure_url" content="https://le-mans-praxis.de/img/home/team.jpg?v=<?php echo $img_version; ?>">
     <meta name="twitter:image:alt" content="Le Mans Praxis">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.min.css?v=<?php echo $bootstrap_version; ?>">
-    <link rel="stylesheet" type="text/css" href="/lib/bootstrap-icons/bootstrap-icons.css?v=<?php echo $bootstrap_icons_version; ?>">
-    <link rel="stylesheet" type="text/css" href="/lib/flag-icons/flag-icons.css?v=<?php echo $flag_icons_version; ?>">
-    <link rel="stylesheet" type="text/css" href="/lib/jost/jost.css?v=<?php echo $jost_font_version; ?>" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css?v=<?php echo $css_version; ?>">
+    <link rel="stylesheet" type="text/css" href="./lib/bootstrap/css/bootstrap.min.css?v=<?php echo $bootstrap_version; ?>">
+    <link rel="stylesheet" type="text/css" href="./lib/bootstrap-icons/bootstrap-icons.css?v=<?php echo $bootstrap_icons_version; ?>">
+    <link rel="stylesheet" type="text/css" href="./lib/flag-icons/flag-icons.css?v=<?php echo $flag_icons_version; ?>">
+    <link rel="stylesheet" type="text/css" href="./lib/jost/jost.css?v=<?php echo $jost_font_version; ?>" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css?v=<?php echo $css_version; ?>">
 </head>
 
 <body>
@@ -79,7 +79,7 @@ $jost_font_version = "3.5.0";
         <nav id="my-header" class="navbar fixed-top navbar-expand-md shadow mb-3 pb-3 text-dark bg-light">
             <div class="container-fluid">
                 <button type="button" class="btn btn-link navbar-brand ms-3 d-flex flex-nowrap text-dark" id="my-btn-logo">
-                    <img class="align-self-center me-1 img-fluid" src="/img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>" alt="Le Mans Praxis" width="61.23" height="50" style="height: 50px;">
+                    <img class="align-self-center me-1 img-fluid" src="./img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>" alt="Le Mans Praxis" width="61.23" height="50" style="height: 50px;">
                     <div class="align-self-center" data-i18n-key="title">Le Mans Praxis</div>
                 </button>
                 <button type="button" class="btn btn-link navbar-toggler text-dark collapsed text-dark" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="my-btn-toggler">
@@ -156,8 +156,8 @@ $jost_font_version = "3.5.0";
             <div class="container my-3 p-4">
                 <div class="row mx-0">
                     <picture>
-                        <source srcset="/img/home/team.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="/img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" />
+                        <source srcset="./img/home/team.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" />
                     </picture>
                 </div>
             </div>
@@ -264,8 +264,8 @@ $jost_font_version = "3.5.0";
                     <span class="d-inline-block">33098 Paderborn</span>
                 </div>
                 <picture>
-                    <source srcset="/img/home/map.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                    <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="/img/home/map.png?v=<?php echo $img_version; ?>" onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')" alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany." style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
+                    <source srcset="./img/home/map.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                    <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/home/map.png?v=<?php echo $img_version; ?>" onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')" alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany." style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
                 </picture>
             </div>
         </div>
@@ -284,8 +284,8 @@ $jost_font_version = "3.5.0";
                 <div class="row d-flex justify-content-center mx-0">
                     <div class="card border shadow col-12 col-md-6 col-lg-4 px-0 mx-3">
                         <picture>
-                            <source srcset="/img/team/issa.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class="card-img-top" src="/img/team/issa.jpg?v=<?php echo $img_version; ?>" alt="Dr. Gabie Issa">
+                            <source srcset="./img/team/issa.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                            <img class="card-img-top" src="./img/team/issa.jpg?v=<?php echo $img_version; ?>" alt="Dr. Gabie Issa">
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all" data-i18n-key="doctor">Dr. Gabie
@@ -302,8 +302,8 @@ $jost_font_version = "3.5.0";
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 d-flex justify-content-center mx-0">
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
-                            <source srcset="/img/team/zuka.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="/img/team/zuka.jpg?v=<?php echo $img_version; ?>" alt="Nexharie Zuka">
+                            <source srcset="./img/team/zuka.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                            <img class=" card-img-top" src="./img/team/zuka.jpg?v=<?php echo $img_version; ?>" alt="Nexharie Zuka">
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Nexharie Zuka</h5>
@@ -314,8 +314,8 @@ $jost_font_version = "3.5.0";
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
-                            <source srcset="/img/team/ischuh.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="/img/team/ischuh.jpg?v=<?php echo $img_version; ?>" alt="Simone Ischuh">
+                            <source srcset="./img/team/ischuh.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                            <img class=" card-img-top" src="./img/team/ischuh.jpg?v=<?php echo $img_version; ?>" alt="Simone Ischuh">
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Simone Ischuh</h5>
@@ -326,8 +326,8 @@ $jost_font_version = "3.5.0";
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
-                            <source srcset="/img/team/ewers.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="/img/team/ewers.jpg?v=<?php echo $img_version; ?>" alt="Sabrina Ewers">
+                            <source srcset="./img/team/ewers.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                            <img class=" card-img-top" src="./img/team/ewers.jpg?v=<?php echo $img_version; ?>" alt="Sabrina Ewers">
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Sabrina Ewers</h5>
@@ -338,8 +338,8 @@ $jost_font_version = "3.5.0";
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
-                            <source srcset="/img/team/idrizaj.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="/img/team/idrizaj.jpg?v=<?php echo $img_version; ?>" alt="Florida Idrizaj">
+                            <source srcset="./img/team/idrizaj.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                            <img class=" card-img-top" src="./img/team/idrizaj.jpg?v=<?php echo $img_version; ?>" alt="Florida Idrizaj">
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Florida Idrizaj</h5>
@@ -350,8 +350,8 @@ $jost_font_version = "3.5.0";
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
-                            <source srcset="/img/team/akcay.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="/img/team/akcay.jpg?v=<?php echo $img_version; ?>" alt="Gülbahar Akcay">
+                            <source srcset="./img/team/akcay.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                            <img class=" card-img-top" src="./img/team/akcay.jpg?v=<?php echo $img_version; ?>" alt="Gülbahar Akcay">
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Gülbahar Akcay</h5>
@@ -362,8 +362,8 @@ $jost_font_version = "3.5.0";
                     </div>
                     <div class="card border shadow col-12 col-md-5 col-lg-3 px-0 mx-3">
                         <picture>
-                            <source srcset="/img/team/tegethoff.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                            <img class=" card-img-top" src="/img/team/tegethoff.jpg?v=<?php echo $img_version; ?>" alt="Julia Tegethoff">
+                            <source srcset="./img/team/tegethoff.webp?v=<?php echo $img_version; ?>" type="image/webp">
+                            <img class=" card-img-top" src="./img/team/tegethoff.jpg?v=<?php echo $img_version; ?>" alt="Julia Tegethoff">
                         </picture>
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold user-select-all">Julia Tegethoff</h5>
@@ -1687,11 +1687,11 @@ $jost_font_version = "3.5.0";
         </button>
     </div>
 
-    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js?v=<?php echo $bootstrap_version; ?>"></script>
-    <script src="/lib/jquery/jquery.min.js?v=<?php echo $jquery_version; ?>"></script>
-    <script src="/js/script.js?v=<?php echo $js_version; ?>"></script>
-    <script src="/js/darkmode.js?v=<?php echo $js_version; ?>"></script>
-    <!-- <script src="/js/i18n.js?v=<?php echo $js_version; ?>"></script> -->
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js?v=<?php echo $bootstrap_version; ?>"></script>
+    <script src="./lib/jquery/jquery.min.js?v=<?php echo $jquery_version; ?>"></script>
+    <script src="./js/script.js?v=<?php echo $js_version; ?>"></script>
+    <script src="./js/darkmode.js?v=<?php echo $js_version; ?>"></script>
+    <!-- <script src="./js/i18n.js?v=<?php echo $js_version; ?>"></script> -->
 </body>
 
 </html>
