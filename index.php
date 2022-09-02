@@ -1,10 +1,10 @@
 <?php
-$website_version = "5.0.2";
-$website_date = "01.09.2022";
+$website_version = "5.0.3";
+$website_date = "02.09.2022";
 $css_version = "5.0.2";
 $js_version = "5.0.2";
 $favicon_version = "5.0.2";
-$img_version = "5.0.2";
+$img_version = "5.0.3";
 $jquery_version = "3.6.1";
 $bootstrap_version = "5.2.0";
 $bootstrap_icons_version = "1.9.1";
