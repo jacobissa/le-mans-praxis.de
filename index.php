@@ -1365,10 +1365,10 @@ $jost_font_version = "3.5.0";
                     <p>
                         Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche
                         Gesellschaft für
-                        Datenschutz GmbH, die als <a onclick="window.open('https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter' , '_blank')">Externer
+                        Datenschutz GmbH, die als <a href="/" onclick="window.open('https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter' , '_blank')">Externer
                             Datenschutzbeauftragter Bayern</a> tätig ist, in
                         Kooperation
-                        mit dem <a onclick="window.open('https://www.wbs-law.de' , '_blank')">Datenschutz Anwalt
+                        mit dem <a href="/" onclick="window.open('https://www.wbs-law.de' , '_blank')">Datenschutz Anwalt
                             Christian
                             Solmecke</a> erstellt.
                     </p>
@@ -1502,7 +1502,6 @@ $jost_font_version = "3.5.0";
                         diesem Link https://www.google.com/intl/de_de/analytics/ genauer erläutert.
                     </p>
                     -->
-
                 </div>
             </div>
         </div>
