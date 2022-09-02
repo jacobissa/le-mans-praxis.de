@@ -156,8 +156,11 @@ $jost_font_version = "3.5.0";
             <div class="container my-3 p-4">
                 <div class="row mx-0">
                     <picture>
-                        <source srcset="./img/home/team.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" width="2560" height="1920" />
+                        <img srcset="./img/home/team-640w.jpg?v=<?php echo $img_version; ?> 640w,
+                         ./img/home/team-720w.jpg?v=<?php echo $img_version; ?> 720w,
+                         ./img/home/team-960w.jpg?v=<?php echo $img_version; ?> 960w,
+                         ./img/home/team-1280w.jpg?v=<?php echo $img_version; ?> 1280w,
+                         ./img/home/team.jpg?v=<?php echo $img_version; ?> 2560w" sizes="100vw" src="./img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" />
                     </picture>
                 </div>
             </div>
