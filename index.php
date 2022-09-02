@@ -1,5 +1,5 @@
 <?php
-$website_version = "5.0.3";
+$website_version = "5.0.4";
 $website_date = "02.09.2022";
 $css_version = "5.0.2";
 $js_version = "5.0.2";
@@ -78,11 +78,11 @@ $jost_font_version = "3.5.0";
     <div class="mb-3 pb-3">
         <nav id="my-header" class="navbar fixed-top navbar-expand-md shadow mb-3 pb-3 text-dark bg-light">
             <div class="container-fluid">
-                <button type="button" class="btn btn-link navbar-brand ms-3 d-flex flex-nowrap text-dark" id="my-btn-logo">
+                <button type="button" class="btn btn-link navbar-brand ms-3 d-flex flex-nowrap text-dark" id="my-btn-logo" aria-label="Logo">
                     <img class="align-self-center me-1 img-fluid" src="./img/favicon/favicon.svg?v=<?php echo $favicon_version; ?>" alt="Le Mans Praxis" width="61.23" height="50" style="height: 50px;">
                     <div class="align-self-center" data-i18n-key="title">Le Mans Praxis</div>
                 </button>
-                <button type="button" class="btn btn-link navbar-toggler text-dark collapsed text-dark" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="my-btn-toggler">
+                <button type="button" class="btn btn-link navbar-toggler text-dark collapsed text-dark" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="my-btn-toggler" aria-label="Toggle navigation">
                     <span class="bi bi-x-lg fs-2"></span>
                     <span class="bi bi-list fs-2"></span>
                 </button>
@@ -1365,10 +1365,10 @@ $jost_font_version = "3.5.0";
                     <p>
                         Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche
                         Gesellschaft für
-                        Datenschutz GmbH, die als <a onclick="window.open('https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter' , '_blank')">Externer
+                        Datenschutz GmbH, die als <a href="/" onclick="window.open('https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter' , '_blank')">Externer
                             Datenschutzbeauftragter Bayern</a> tätig ist, in
                         Kooperation
-                        mit dem <a onclick="window.open('https://www.wbs-law.de' , '_blank')">Datenschutz Anwalt
+                        mit dem <a href="/" onclick="window.open('https://www.wbs-law.de' , '_blank')">Datenschutz Anwalt
                             Christian
                             Solmecke</a> erstellt.
                     </p>
@@ -1502,7 +1502,6 @@ $jost_font_version = "3.5.0";
                         diesem Link https://www.google.com/intl/de_de/analytics/ genauer erläutert.
                     </p>
                     -->
-
                 </div>
             </div>
         </div>
