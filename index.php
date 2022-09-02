@@ -98,10 +98,10 @@ $jost_font_version = "3.5.0";
                             <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-services" data-i18n-key="services">Leistungen</button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-whatsapp" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')"><span class="bi bi-whatsapp fs-4"></span></button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-whatsapp" aria-label="WhatsApp" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')"><span class="bi bi-whatsapp fs-4"></span></button>
                         </li>
                         <li class="nav-item flex-fill d-flex align-items-center text-center">
-                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-darkmode"><span class="bi bi-moon fs-4"></span></button>
+                            <button type="button" class="btn btn-link nav-link text-dark" id="my-btn-darkmode" aria-label="Dark Mode"><span class="bi bi-moon fs-4"></span></button>
                         </li>
                         <!--
                         <li class="dropdown nav-item flex-fill d-flex align-items-cente text-center flex-wrap">
@@ -140,15 +140,15 @@ $jost_font_version = "3.5.0";
                 <div class="d-flex flex-column">
                     <h1 class="display-3 fw-bolder py-2 px-0 text-center user-select-all" data-i18n-key="title">Le Mans
                         Praxis</h1>
-                    <h4 class="py-2 px-0 text-center">
+                    <h3 class="py-2 px-0 text-center">
                         <span class="d-none d-sm-inline-block user-select-none">&#8211;</span>
                         <span class="user-select-all" data-i18n-key="subtitle">Hausärztliche Versorgung</span>
                         <span class="d-none d-sm-inline-block user-select-none">&#8211;</span>
-                    </h4>
-                    <h2 class="fw-bold py-2 px-0 text-center user-select-all" data-i18n-key="doctor">Dr. Gabie Issa</h2>
-                    <h3 class="py-2 px-0 text-center user-select-all" data-i18n-key="position">Facharzt für Innere
-                        Medizin
                     </h3>
+                    <h1 class="fw-bold py-2 px-0 text-center user-select-all" data-i18n-key="doctor">Dr. Gabie Issa</h1>
+                    <h4 class="py-2 px-0 text-center user-select-all" data-i18n-key="position">Facharzt für Innere
+                        Medizin
+                    </h4>
                 </div>
             </div>
 
@@ -237,7 +237,7 @@ $jost_font_version = "3.5.0";
                             </div>
                             <div class="col px-auto text-center text-wrap user-select-all">
                                 <div class="fw-semibold" data-i18n-key="whatsapp">WhatsApp</div>
-                                <div><a class="link-dark" style="cursor: pointer;" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')">05251281331</a>
+                                <div><a class="link-dark" href="/" style="cursor: pointer;" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')">05251281331</a>
                                 </div>
                             </div>
                         </div>
