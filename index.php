@@ -3,8 +3,8 @@ $website_version = "5.0.4";
 $website_date = "02.09.2022";
 $css_version = "5.0.2";
 $js_version = "5.0.2";
-$favicon_version = "5.0.2";
-$img_version = "5.0.3";
+$favicon_version = "5.0.4";
+$img_version = "5.0.4";
 $jquery_version = "3.6.1";
 $bootstrap_version = "5.2.0";
 $bootstrap_icons_version = "1.9.1";
@@ -140,12 +140,12 @@ $jost_font_version = "3.5.0";
                 <div class="d-flex flex-column">
                     <h1 class="display-3 fw-bolder py-2 px-0 text-center user-select-all" data-i18n-key="title">Le Mans
                         Praxis</h1>
-                    <h3 class="py-2 px-0 text-center">
+                    <h2 class="h3 py-2 px-0 text-center">
                         <span class="d-none d-sm-inline-block user-select-none">&#8211;</span>
                         <span class="user-select-all" data-i18n-key="subtitle">Hausärztliche Versorgung</span>
                         <span class="d-none d-sm-inline-block user-select-none">&#8211;</span>
-                    </h3>
-                    <h1 class="fw-bold py-2 px-0 text-center user-select-all" data-i18n-key="doctor">Dr. Gabie Issa</h1>
+                    </h2>
+                    <h3 class="h2 fw-bold py-2 px-0 text-center user-select-all" data-i18n-key="doctor">Dr. Gabie Issa</h3>
                     <h4 class="py-2 px-0 text-center user-select-all" data-i18n-key="position">Facharzt für Innere
                         Medizin
                     </h4>
