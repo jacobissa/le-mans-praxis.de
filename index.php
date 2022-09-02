@@ -157,7 +157,7 @@ $jost_font_version = "3.5.0";
                 <div class="row mx-0">
                     <picture>
                         <source srcset="./img/home/team.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" width="4896" height="3688" />
+                        <img class="img-fluid img-thumbnail rounded p-1 mx-auto shadow" src="./img/home/team.jpg?v=<?php echo $img_version; ?>" alt="Le Mans Praxis" width="2560" height="1920" />
                     </picture>
                 </div>
             </div>
@@ -265,7 +265,7 @@ $jost_font_version = "3.5.0";
                 </div>
                 <picture>
                     <source srcset="./img/home/map.webp?v=<?php echo $img_version; ?>" type="image/webp">
-                    <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/home/map.png?v=<?php echo $img_version; ?>" onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')" alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany" width="2564" height="960" style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
+                    <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="./img/home/map.png?v=<?php echo $img_version; ?>" onclick="window.open('https://g.page/dr-gabie-issa' , '_blank')" alt="Dr. Gabie Issa, Le-Mans-Wall 9, 33098 Paderborn, Germany" width="1280" height="480" style="min-height: 400px; object-fit: cover; object-position: center; cursor: pointer;" />
                 </picture>
             </div>
         </div>
