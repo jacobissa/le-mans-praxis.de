@@ -1,6 +1,6 @@
 // Files to cache
 const cacheName = "le-mans-praxis";
-const contentToCache = ["./", "./img/home/team.webp"];
+const contentToCache = ["../", "../img/home/team.webp"];
 
 // Installing Service Worker
 self.addEventListener("install", (e) => {
