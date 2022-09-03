@@ -66,7 +66,7 @@ $("#my-btn-imprint").click(function () {
  */
 $("#my-btn-floating-top").hide();
 $("#my-btn-floating-top, #my-btn-footer-top").click(function () {
-  $("html, body").stop().animate({ scrollTop: 0 }, 500, "swing");
+  $("html, body").animate({ scrollTop: 0 }, 500);
 });
 $(window).scroll(function () {
   var distance = $("body").height() - $(this).scrollTop() - $(window).height() - $("#my-footer").outerHeight();
@@ -79,3 +79,12 @@ $(window).scroll(function () {
     $("#my-btn-floating-top").fadeOut();
   }
 });
+
+/**
+ * service worker registration
+ */
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./js/service-worker.js?v=5.0.6");
+  });
+}
