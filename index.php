@@ -1,8 +1,8 @@
 <?php
-$website_version = "5.0.5";
+$website_version = "5.0.6";
 $website_date = "03.09.2022";
 $css_version = "5.0.2";
-$js_version = "5.0.2";
+$js_version = "5.0.6";
 $favicon_version = "5.0.5";
 $img_version = "5.0.5";
 $jquery_version = "3.6.1";
