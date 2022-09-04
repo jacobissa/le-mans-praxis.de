@@ -1,8 +1,8 @@
 <?php
-$website_version = "5.0.6";
+$website_version = "5.0.7";
 $website_date = "03.09.2022";
 $css_version = "5.0.2";
-$js_version = "5.0.6";
+$js_version = "5.0.7";
 $favicon_version = "5.0.5";
 $img_version = "5.0.5";
 $jquery_version = "3.6.1";
@@ -1686,7 +1686,7 @@ $jost_font_version = "3.5.0";
         </button>
     </div>
 
-    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js?v=<?php echo $bootstrap_version; ?>"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js?v=<?php echo $bootstrap_version; ?>"></script>
     <script src="./lib/jquery/jquery.min.js?v=<?php echo $jquery_version; ?>"></script>
     <script src="./js/script.js?v=<?php echo $js_version; ?>"></script>
     <script src="./js/darkmode.js?v=<?php echo $js_version; ?>"></script>
