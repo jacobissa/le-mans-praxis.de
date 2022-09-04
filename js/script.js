@@ -85,6 +85,6 @@ $(window).scroll(function () {
  */
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
-    navigator.serviceWorker.register("./js/service-worker.js?v=5.0.6");
+    navigator.serviceWorker.register("./sw.js?v=5.0.6");
   });
 }
