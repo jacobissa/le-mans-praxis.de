@@ -17,25 +17,25 @@ Header always set X-Xss-Protection "1; mode=block"
 </IfModule>
 
 ## Redirect ##
-Redirect 410 /sitemapimages.xml
-Redirect 410 /redirect.php?link=googlemaps
-Redirect 410 /feed/
-Redirect 410 /index.html
-Redirect 410 /team.html
-Redirect 410 /team
-Redirect 410 /team/
-Redirect 410 /praxisteam.html
-Redirect 410 /anfahrt.html
-Redirect 410 /anfahrt/
-Redirect 410 /sprechzeiten.html
-Redirect 410 /sprechstunde/
-Redirect 410 /leistungen.html
-Redirect 410 /kontakt.html
-Redirect 410 /kontakt/
-Redirect 410 /datenschutz.html
-Redirect 410 /datenschutz/
-Redirect 410 /impressum.html
-Redirect 410 /impressum/
+Redirect 301 /sitemapimages.xml /
+Redirect 301 /redirect.php?link=googlemaps /
+Redirect 301 /feed/ /
+Redirect 301 /index.html /
+Redirect 301 /team.html /
+Redirect 301 /team /
+Redirect 301 /team/ /
+Redirect 301 /praxisteam.html /
+Redirect 301 /anfahrt.html /
+Redirect 301 /anfahrt/ /
+Redirect 301 /sprechzeiten.html /
+Redirect 301 /sprechstunde/ /
+Redirect 301 /leistungen.html /
+Redirect 301 /kontakt.html /
+Redirect 301 /kontakt/ /
+Redirect 301 /datenschutz.html /
+Redirect 301 /datenschutz/ /
+Redirect 301 /impressum.html /
+Redirect 301 /impressum/ /
 ErrorDocument 403 https://le-mans-praxis.de
 ErrorDocument 404 https://le-mans-praxis.de
 
