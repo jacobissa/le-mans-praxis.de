@@ -1,5 +1,5 @@
 <?php
-$website_version = "5.0.20";
+$website_version = "5.0.21";
 $website_date = "04.12.2024";
 $css_version = "5.0.2";
 $js_version = "5.0.7";
