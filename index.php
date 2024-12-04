@@ -1,6 +1,6 @@
 <?php
-$website_version = "5.0.10";
-$website_date = "13.10.2022";
+$website_version = "5.0.20";
+$website_date = "04.12.2024";
 $css_version = "5.0.2";
 $js_version = "5.0.7";
 $favicon_version = "5.0.5";
@@ -200,11 +200,11 @@ $jost_font_version = "3.5.0";
 			<div class="container my-3 p-4">
 				<div class="h1 fs-1 fw-bolder p-2 text-center user-select-none">Kontakt</div>
 				<div class="py-2 text-center user-select-none">
-					Nur für Vereinbarung von Terminen, Bestellung von Rezepten &
+					* Nur für Vereinbarung von Terminen, Bestellung von Rezepten &
 					Überweisungen sowie Transport von Unterlagen!
 				</div>
 				<div class="py-2 text-center user-select-none">
-					Medizinische Fragen können per WhatsApp oder E-Mail leider nicht
+					Medizinische Fragen können per Fax, WhatsApp oder E-Mail leider nicht
 					beantwortet werden!
 				</div>
 				<div class="row row-cols-1 row-cols-sm-2 mx-0 my-3 g-3">
@@ -225,7 +225,7 @@ $jost_font_version = "3.5.0";
 								<span class="bi bi-printer fs-2"></span>
 							</div>
 							<div class="col px-auto text-center text-wrap user-select-all">
-								<div class="fw-semibold" data-i18n-key="fax">Fax</div>
+								<div class="fw-semibold" data-i18n-key="fax">Fax *</div>
 								<div><a class="link-dark" href="tel:+4952516829234">052516829234</a></div>
 							</div>
 						</div>
@@ -236,7 +236,7 @@ $jost_font_version = "3.5.0";
 								<span class="bi bi-whatsapp fs-2"></span>
 							</div>
 							<div class="col px-auto text-center text-wrap user-select-all">
-								<div class="fw-semibold" data-i18n-key="whatsapp">WhatsApp</div>
+								<div class="fw-semibold" data-i18n-key="whatsapp">WhatsApp *</div>
 								<div><a class="link-dark" href="/" style="cursor: pointer;" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')">05251281331</a>
 								</div>
 							</div>
@@ -248,7 +248,7 @@ $jost_font_version = "3.5.0";
 								<span class="bi bi-envelope fs-2"></span>
 							</div>
 							<div class="col px-auto text-center text-wrap user-select-all">
-								<div class="fw-semibold" data-i18n-key="email">E-Mail</div>
+								<div class="fw-semibold" data-i18n-key="email">E-Mail *</div>
 								<div><a class="link-dark" id="home-email">Error decrypting email</a></div>
 							</div>
 						</div>
