@@ -1,6 +1,6 @@
 <?php
-$website_version = "5.0.21";
-$website_date = "04.12.2024";
+$website_version = "5.0.22";
+$website_date = "10.12.2024";
 $css_version = "5.0.2";
 $js_version = "5.0.7";
 $favicon_version = "5.0.5";
@@ -98,12 +98,12 @@ $jost_font_version = "3.5.0";
 							<button type="button" class="btn btn-link nav-link text-dark" id="my-btn-services" data-i18n-key="services">Leistungen</button>
 						</li>
 						<li class="nav-item flex-fill d-flex align-items-center text-center">
-							<button type="button" class="btn btn-link nav-link text-dark" id="my-btn-whatsapp" aria-label="WhatsApp" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')"><span class="bi bi-whatsapp fs-4"></span></button>
-						</li>
-						<li class="nav-item flex-fill d-flex align-items-center text-center">
 							<button type="button" class="btn btn-link nav-link text-dark" id="my-btn-darkmode" aria-label="Dark Mode"><span class="bi bi-moon fs-4"></span></button>
 						</li>
 						<!--
+						<li class="nav-item flex-fill d-flex align-items-center text-center">
+							<button type="button" class="btn btn-link nav-link text-dark" id="my-btn-whatsapp" aria-label="WhatsApp" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')"><span class="bi bi-whatsapp fs-4"></span></button>
+						</li>
                         <li class="dropdown nav-item flex-fill d-flex align-items-cente text-center flex-wrap">
                             <button class="dropdown-toggle btn btn-link nav-link text-dark" type="button"
                                 id="my-btn-translate" data-bs-toggle="dropdown" aria-expanded="false"><span
@@ -166,7 +166,7 @@ $jost_font_version = "3.5.0";
 			<div class="container my-3 p-4">
 				<div class="h1 fs-1 fw-bolder my-2 py-2 text-center user-select-none" data-i18n-key="hours">
 					Öffnungszeiten</div>
-				<div class="row my-2 py-2 g-3 mx-0 user-select-all">
+				<div class="row my-2 py-2 g-3 mx-0 user-select-none">
 					<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
 						<div class="col-4 col-sm-6 col-md px-3" data-i18n-key="monday">Montag</div>
 						<div class="col col-sm-6 col-md-4 px-3 text-wrap">
@@ -207,50 +207,32 @@ $jost_font_version = "3.5.0";
 					Medizinische Fragen können per Fax, WhatsApp oder E-Mail leider nicht
 					beantwortet werden!
 				</div>
-				<div class="row row-cols-1 row-cols-sm-2 mx-0 my-3 g-3">
-					<div class="contact-start col px-0 pe-sm-2">
-						<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-							<div class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
-								<span class="bi bi-telephone fs-2"></span>
-							</div>
-							<div class="col px-auto text-center text-wrap user-select-all">
-								<div class="fw-semibold" data-i18n-key="phone">Telefon</div>
-								<div><a class="link-dark" href="tel:+495251281331">05251281331</a></div>
-							</div>
+				<div class="row my-2 py-2 g-3 mx-0 user-select-none">
+					<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
+						<div class="col-4 col-sm-6 col-md px-3">
+							<span class="bi bi-telephone"></span>
+							<span class="fw-semibold" data-i18n-key="phone">Telefon</span>
+						</div>
+						<div class="col col-sm-6 col-md-4 px-3 text-wrap">
+							<a class="link-dark" href="tel:+495251281331">05251281331</a>
 						</div>
 					</div>
-					<div class="contact-end col px-0 ps-sm-2">
-						<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-							<div class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
-								<span class="bi bi-printer fs-2"></span>
-							</div>
-							<div class="col px-auto text-center text-wrap user-select-all">
-								<div class="fw-semibold" data-i18n-key="fax">Fax *</div>
-								<div><a class="link-dark" href="tel:+4952516829234">052516829234</a></div>
-							</div>
+					<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
+						<div class="col-4 col-sm-6 col-md px-3">
+							<span class="bi bi-printer"></span>
+							<span class="fw-semibold" data-i18n-key="fax">Fax *</span>
+						</div>
+						<div class="col col-sm-6 col-md-4 px-3 text-wrap">
+							<a class="link-dark" href="tel:+4952516829234">052516829234</a>
 						</div>
 					</div>
-					<div class="contact-start col px-0 pe-sm-2">
-						<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-							<div class="col-2 col-md-4 px-3 text-center d-inline-flex align-self-center justify-content-start">
-								<span class="bi bi-whatsapp fs-2"></span>
-							</div>
-							<div class="col px-auto text-center text-wrap user-select-all">
-								<div class="fw-semibold" data-i18n-key="whatsapp">WhatsApp *</div>
-								<div><a class="link-dark" href="/" style="cursor: pointer;" onclick="window.open('https://wa.me/message/OYD6HHINQVU5E1' , '_blank')">05251281331</a>
-								</div>
-							</div>
+					<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark p-3 my-2 border rounded">
+						<div class="col-4 col-sm-6 col-md px-3">
+							<span class="bi bi-envelope"></span>
+							<span class="fw-semibold" data-i18n-key="email">E-Mail *</span>
 						</div>
-					</div>
-					<div class="contact-end col px-0 ps-sm-2">
-						<div class="row d-flex flex-row justify-content-between mx-auto bg-light text-dark py-3 my-2 border rounded">
-							<div class="col-2 col-md-4 px-auto text-center d-inline-flex align-self-center justify-content-start">
-								<span class="bi bi-envelope fs-2"></span>
-							</div>
-							<div class="col px-auto text-center text-wrap user-select-all">
-								<div class="fw-semibold" data-i18n-key="email">E-Mail *</div>
-								<div><a class="link-dark" id="home-email">Error decrypting email</a></div>
-							</div>
+						<div class="col col-sm-6 col-md-4 px-3 text-wrap">
+							<a class="link-dark" id="home-email">Error decrypting email</a>
 						</div>
 					</div>
 				</div>
